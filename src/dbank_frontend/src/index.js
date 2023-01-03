@@ -26,6 +26,8 @@ document.querySelector("form").addEventListener("submit", async function(event) 
 
   update();
 
+  // Omitting compound feature because it is too large and can mess up the variables.
+
   document.getElementById("input-amount").value="";
   document.getElementById("withdrawal-amount").value="";
 
